@@ -15,7 +15,31 @@
     color: white;
     border-radius: 20px;
 }
-  
+
+#center-bg{
+    height: 90vh;
+    background-color: rgb(0 0 0 / 50%);
+   }
+   
 #wheather-card{
     background-color:#00000061;
+}
+
+@media(max-width:540px){
+    #wheather-card{
+      margin-top: 50px;
+    }
+    #center-bg{
+       background-color: transparent;
+       
+    }
+    #cityname{
+     color: blue;
+    }
+    #search-field{
+        display: block;
+    }
+    #center-bg{
+        padding-left: 33px;
+    }
 }
